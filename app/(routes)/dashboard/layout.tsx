@@ -17,6 +17,8 @@ import {
 } from '@heroicons/react/24/outline';
 import AuthGuard from '../../../components/AuthGuard';
 
+// Rest of your existing dashboard layout code...
+
 
 interface NavItem {
   name: string;
