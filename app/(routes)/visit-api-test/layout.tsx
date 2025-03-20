@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import AuthGuard from '../../../components/AuthGuard';
+import AuthGuard from '../../components/AuthGuard';
 
 export default function VisitApiTestLayout({
   children,
