@@ -1,11 +1,10 @@
 'use client';
 
-import PageNavigation from '../../components/PageNavigation';
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/app/contexts/AuthContext';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import PageNavigation from '@/app/components/PageNavigation';
+import PageNavigation from '../../components/PageNavigation';
 import { 
   PlusIcon, 
   ArrowPathIcon, 
