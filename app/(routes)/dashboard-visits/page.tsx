@@ -1,5 +1,6 @@
 'use client';
 
+import PageNavigation from '../../components/PageNavigation';
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/app/contexts/AuthContext';
 import { useRouter } from 'next/navigation';
