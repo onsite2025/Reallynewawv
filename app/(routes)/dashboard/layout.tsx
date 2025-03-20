@@ -15,7 +15,8 @@ import {
   UserCircleIcon,
   ChartBarIcon,
 } from '@heroicons/react/24/outline';
-import AuthGuard from '@/app/components/AuthGuard';
+import AuthGuard from '../../../components/AuthGuard';
+
 
 interface NavItem {
   name: string;
