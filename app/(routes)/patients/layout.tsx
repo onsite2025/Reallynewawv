@@ -3,7 +3,7 @@
 import React from 'react';
 import AuthGuard from '../../../components/AuthGuard';
 
-export default function PatientsLayout({
+export default function DashboardVisitsLayout({
   children,
 }: {
   children: React.ReactNode;
