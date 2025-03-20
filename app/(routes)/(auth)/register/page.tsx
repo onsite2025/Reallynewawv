@@ -3,7 +3,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
-import { auth } from '@/app/lib/firebase';
+import { auth } from '../../../lib/firebase';
 import Link from 'next/link';
 import { UserPlusIcon, ArrowPathIcon, CheckIcon, XMarkIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
 
